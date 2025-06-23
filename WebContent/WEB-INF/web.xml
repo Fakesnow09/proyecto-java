@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <servlet>
+        <servlet-name>AuthServlet</servlet-name>
+        <servlet-class>com.miproyecto.auth.AuthServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>AuthServlet</servlet-name>
+      <url-pattern>/AuthServlet</url-pattern>
+    </servlet-mapping>
+   
+
+    <servlet>
+        <servlet-name>ClienteServlet</servlet-name>
+        <servlet-class>com.miproyecto.clientes.ClienteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClienteServlet</servlet-name>
+        <url-pattern>/clientes</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ProductoServlet</servlet-name>
+        <servlet-class>com.miproyecto.Productos.ProductoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductoServlet</servlet-name>
+        <url-pattern>/productos</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InventarioServlet</servlet-name>
+        <servlet-class>com.miproyecto.Inventarios.InventarioServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InventarioServlet</servlet-name>
+        <url-pattern>/inventarios</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PedidoServlet</servlet-name>
+        <servlet-class>com.miproyecto.Pedidos.PedidoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PedidoServlet</servlet-name>
+        <url-pattern>/pedidos</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AlmacenServlet</servlet-name>
+        <servlet-class>com.miproyecto.Almacen.AlmacenServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AlmacenServlet</servlet-name>
+        <url-pattern>/almacen</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CargaServlet</servlet-name>
+        <servlet-class>com.miproyecto.Carga.CargaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CargaServlet</servlet-name>
+        <url-pattern>/carga</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TransporteServlet</servlet-name>
+        <servlet-class>com.miproyecto.Transporte.TransporteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TransporteServlet</servlet-name>
+        <url-pattern>/transporte</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RutaServlet</servlet-name>
+        <servlet-class>com.miproyecto.Ruta.RutaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RutaServlet</servlet-name>
+        <url-pattern>/ruta</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EntregaServlet</servlet-name>
+        <servlet-class>com.miproyecto.Entregas.EntregaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EntregaServlet</servlet-name>
+        <url-pattern>/entregas</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TestConexionServlet</servlet-name>
+        <servlet-class>com.miproyecto.auth.TestConexionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestConexionServlet</servlet-name>
+        <url-pattern>/test-conexion</url-pattern>
+    </servlet-mapping>
+
+</web-app> 

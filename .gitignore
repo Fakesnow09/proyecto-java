@@ -1,0 +1,18 @@
+
+# Archivos de NetBeans
+nbproject/private/
+build/
+dist/
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos de sistema
+*.log
+*.class
+*.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.iml
+out/
