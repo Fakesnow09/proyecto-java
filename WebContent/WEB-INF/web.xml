@@ -5,15 +5,14 @@
          version="5.0">
 
     <servlet>
-        <servlet-name>AuthServlet</servlet-name>
-        <servlet-class>com.miproyecto.auth.AuthServlet</servlet-class>
-    </servlet>
+    <servlet-name>UsuarioServlet</servlet-name>
+    <servlet-class>com.miproyecto.Usuario.UsuarioServlet</servlet-class>
+   </servlet>
 
-    <servlet-mapping>
-      <servlet-name>AuthServlet</servlet-name>
-      <url-pattern>/AuthServlet</url-pattern>
-    </servlet-mapping>
-   
+   <servlet-mapping>
+    <servlet-name>UsuarioServlet</servlet-name>
+    <url-pattern>/UsuarioServlet</url-pattern>
+   </servlet-mapping>
 
     <servlet>
         <servlet-name>ClienteServlet</servlet-name>
@@ -103,6 +102,15 @@
     <servlet-mapping>
         <servlet-name>TestConexionServlet</servlet-name>
         <url-pattern>/test-conexion</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>ExcelExportServlet</servlet-name>
+    <servlet-class>com.miproyecto.Servlet.ExcelExportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>ExcelExportServlet</servlet-name>
+    <url-pattern>/exportar-excel</url-pattern>
     </servlet-mapping>
 
 </web-app> 

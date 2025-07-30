@@ -1,0 +1,8 @@
+<classpath>
+  <classpathentry kind="lib" path="lib/jakarta.servlet-api-6.0.0.jar"/>
+  <classpathentry kind="lib" path="lib/jbcrypt-0.4.jar"/>
+  <classpathentry kind="output" path="bin"/>
+  <classpathentry kind="src" path="src"/>
+</classpath>
+
+

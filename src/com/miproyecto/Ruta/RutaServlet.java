@@ -1,4 +1,4 @@
- package com.miproyecto.Ruta;
+package com.miproyecto.Ruta;
 
 import com.google.gson.Gson;
 import jakarta.servlet.*;
